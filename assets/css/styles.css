@@ -4,16 +4,72 @@
 ::-webkit-scrollbar-corner { background-color: #8ecff7; }
 
 
-
+a {
+	text-decoration: none;
+}
 
 .desce {
     margin-top: 3%;
 }
 
-.livro {
-    padding-top: 15rem;
-	padding-bottom: 5rem;
+.demo {
+	padding-bottom: 3rem;
 }
+
+#hero {
+	width: 100%;
+	height: 80vh;
+	background: url("../img/hero.jpg") top center;
+	background-size: cover;
+	position: relative;
+  }
+  
+  #hero:before {
+	content: "";
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+  }
+  
+  #hero .container {
+	padding-top: 72px;
+  }
+
+  #hero h1 {
+	margin: 0;
+	font-size: 5rem;
+	line-height: 56px;
+	color: #fff;
+  }
+  
+  #hero h2 {
+	color: #eee;
+	margin: 10px 0 0 0;
+	font-size: 24px;
+	font-family: "Poppins", sans-serif;
+  }
+  
+  #hero .btn-get-started {
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px 35px;
+	border-radius: 50px;
+	transition: 0.5s;
+	margin-top: 30px;
+	border: 2px solid #fff;
+	color: #fff;
+  }
+  
+  #hero .btn-get-started:hover {
+	background: #86c9f3;
+	border: 2px solid  #86c9f3;
+  }
 
 .info_livro {
     padding-top: 1rem;
@@ -75,7 +131,7 @@
 .citacao p {
 	font-size: 18px;
 	color: #111111;
-	line-height: 31px;
+	line-height: 30px;
 }
 
 .citacao h6 {
@@ -194,6 +250,8 @@
 
 .resenha {
 	text-indent: 3%;
+	font-size: 16px;
+	line-height: 31px;
 }
 
 footer {
@@ -211,4 +269,28 @@ footer {
 	vertical-align: middle;
     width: 3rem;
     height: 3rem;
+}
+
+@media (max-width: 992px) {
+	#hero .container {
+	  padding-top: 62px;
+	}
+}
+@media (min-width: 1024px) {
+	#hero {
+	  background-attachment: fixed;
+	}
+}
+@media (max-width: 768px) {
+	#hero {
+	  height: 100vh;
+	}
+	#hero h1 {
+	  font-size: 28px;
+	  line-height: 36px;
+	}
+	#hero h2 {
+	  font-size: 18px;
+	  line-height: 24px;
+	}
 }
