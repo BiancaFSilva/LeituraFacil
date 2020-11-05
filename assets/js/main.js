@@ -10,11 +10,6 @@
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 1000
-    });
-
     $(".livros_slider").owlCarousel({
         loop: true,
         margin: 0,
@@ -31,6 +26,11 @@
             576: { items: 2, },
             0: { items: 2, }
         }
+    });
+
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 1000
     });
 
 })(jQuery);
