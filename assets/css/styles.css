@@ -22,9 +22,9 @@ a {
 	background: url("../img/hero.jpg") top center;
 	background-size: cover;
 	position: relative;
-  }
+}
   
-  #hero:before {
+#hero:before {
 	content: "";
 	background: rgba(0, 0, 0, 0.4);
 	position: absolute;
@@ -32,27 +32,35 @@ a {
 	top: 0;
 	left: 0;
 	right: 0;
-  }
+}
   
-  #hero .container {
+#hero .container {
 	padding-top: 72px;
-  }
+}
 
-  #hero h1 {
+#hero h1 {
 	margin: 0;
-	font-size: 5rem;
+	font-size: 4rem;
 	line-height: 56px;
 	color: #fff;
-  }
+}
   
-  #hero h2 {
+#hero h2 {
 	color: #eee;
 	margin: 10px 0 0 0;
-	font-size: 24px;
+	font-size: 1.6rem;
 	font-family: "Poppins", sans-serif;
-  }
+}
+
+#hero h3 {
+	color: #eee;
+	margin: 10px 0 0 0;
+	padding-top: 0;
+	font-size: 1.2rem;
+	font-family: "Poppins", sans-serif;
+}
   
-  #hero .btn-get-started {
+#hero .btn-get-started {
 	font-family: "Raleway", sans-serif;
 	font-weight: 500;
 	font-size: 15px;
@@ -64,12 +72,12 @@ a {
 	margin-top: 30px;
 	border: 2px solid #fff;
 	color: #fff;
-  }
+}
   
-  #hero .btn-get-started:hover {
+#hero .btn-get-started:hover {
 	background: #86c9f3;
 	border: 2px solid  #86c9f3;
-  }
+}
 
 .info_livro {
     padding-top: 1rem;
@@ -78,7 +86,8 @@ a {
 }
 
 .info_livro b {
-    font-size: 1.4rem;
+	font-size: 1.4rem;
+	font-weight: 500;
     font-family: 'Cookie', cursive;
 }
 
@@ -155,6 +164,8 @@ a {
 
 .livros .section-title {
 	margin-bottom: 70px;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .livros_item_pic {
@@ -298,11 +309,12 @@ footer {
 	  height: 100vh;
 	}
 	#hero h1 {
-	  font-size: 28px;
-	  line-height: 36px;
+		font-size: 4rem;
 	}
 	#hero h2 {
-	  font-size: 18px;
-	  line-height: 24px;
+		font-size: 1.6rem;
+	  }
+ 	#hero h3 {
+		font-size: 1.2rem;
 	}
 }

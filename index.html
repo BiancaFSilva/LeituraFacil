@@ -40,12 +40,13 @@
             </nav>
         </div>
 
-        <section id="hero" class="d-flex justify-content-center align-items-center">
+        <section id="hero" class="d-flex justify-content-right align-items-center">
             <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
               <h1>Descubra e leia livros</h1>
-              <h2>compartilhe sua resenha conosco</h2>
-              <a href="resumo.html" class="btn-get-started">Resenhas</a> 
-              <a href="#" class="btn-get-started">Cadastrar livro</a>
+              <h2>Compartilhe sua resenha conosco</h2>
+              <h3><span data-toggle="counter-up">6</span> resenhas disponíveis</h3>
+              <a href="resumo.html" class="btn btn-get-started">Resenhas</a> 
+              <a href="#" class="btn btn-get-started">Cadastrar livro</a>
             </div>
         </section>
 
@@ -83,7 +84,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-2">
-                        <div class="capa_livro" align="center">
+                        <div class="capa_livro d-none d-md-block" align="center">
                             <img src="assets/img/cacador_de_pipas.jpg" alt="Capa do livro O Caçador de Pipas">
                         </div>
                     </div>
@@ -105,7 +106,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-3">
-                        <div class="capa_livro" align="center">
+                        <div class="capa_livro d-none d-md-block" align="center">
                             <img src="assets/img/extraordinario.jpg" alt="Capa do livro Extraordinário">
                         </div>
                     </div>
@@ -127,7 +128,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-6">
-                        <div class="capa_livro"  align="center">
+                        <div class="capa_livro d-none d-md-block" align="center">
                             <img src="assets/img/jogos_v1.jpg" alt="Capa do livro Jogos Vorazes">
                         </div>
                     </div>
@@ -135,7 +136,7 @@
             </div>
         </section>
 
-        <footer class="footer navbar-fixed-bottom">
+        <footer class="footer fixed-bottom">
             <div class="container">
                 <div class="footer_text">
                     <p><img src="assets/img/logo.jpg" alt="Logo Leitura Fácil">  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Leitura Fácil | All rights reserved </p>
@@ -143,10 +144,14 @@
             </div>
         </footer>
 
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
         <script type="text/javascript" src="assets/js/bootstrap.js"></script>
-        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="assets/js/counterup.min.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>       
+        
     </body>
 </html>
