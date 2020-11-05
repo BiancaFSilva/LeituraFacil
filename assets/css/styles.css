@@ -257,6 +257,14 @@ a {
 	line-height: 31px;
 }
 
+.recomendacao {
+	padding-top: 2rem;
+}
+.recomendacao img {
+	height: 190px;
+	width: auto;
+}
+
 footer {
 	background-color: #86c9f3;
 	bottom: 0;
