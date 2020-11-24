@@ -136,10 +136,52 @@
             </div>
         </section>
 
-        <footer class="footer">
-            <div class="container">
+        <footer>
+            <div>
+                <div class="contato">
+                    <div class="container col-md-12 col-lg-6 col-xl-5">
+                        
+                        <form id="formContato" name="formContato" class="form-light" action="" method="POST">
+                            <div class="card">
+                                <div class="rgba-stylish-strong py-5 px-5 z-depth-2">        
+                                    <div class="text-center">
+                                        <h2 class="mb-5 mt-4"> <strong>Contato</strong> </h2>                           
+                                    </div>                                    
+        
+                                    <div class="md-form">
+                                        <label for="formContatoNome">Seu nome</label>
+                                        <input type="text" id="formContatoNome" class="form-control">                                        
+                                    </div>
+        
+                                    <div class="md-form">
+                                        <label for="formContatoEmail">Seu e-mail</label>
+                                        <input type="text" id="formContatoEmail" class="form-control">
+                                    </div>
+
+                                    <div class="md-form mb-0">
+                                        <label for="tituloMensagemContato">Título</label>                                      
+                                        <input type="text" id="tituloMensagemContato" name="tituloMensagemContato" rows="4" class="form-control"></input>
+                                    </div>  
+        
+                                    <div class="md-form mb-5">
+                                        <label for="mensagemContato">Mensagem</label>                                      
+                                        <textarea type="text" id="mensagemContato" name="mensagemContato" rows="4" class="form-control md-textarea"></textarea>
+                                    </div>        
+
+                                    <div class="row d-flex align-items-center">        
+                                        <div class="text-center mb-3 col-md-12">
+                                            <button type="button" class="btn btn-contato" onclick="document.getElementById('formContato').submit();">Enviar</button>
+                                        </div>      
+                                    </div>       
+                                </div>
+                            </div>        
+                        </form>  
+
+                    </div>
+                </div>
+
                 <div class="footer_text">
-                    <p><img src="assets/img/logo.jpg" alt="Logo Leitura Fácil">  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Leitura Fácil | All rights reserved </p>
+                    <p><img src="assets/img/logo.jpg" alt="Logo Leitura Fácil">  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Leitura Fácil | Todos os direitos reservados. </p>
                 </div>
             </div>
         </footer>
