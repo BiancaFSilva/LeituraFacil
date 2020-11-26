@@ -139,8 +139,7 @@
         <footer>
             <div>
                 <div class="contato">
-                    <div class="container col-md-12 col-lg-6 col-xl-5">
-                        
+                    <div class="container col-md-12 col-lg-6 col-xl-5">                        
                         <form id="formContato" name="formContato" class="form-light" action="" method="POST">
                             <div class="card">
                                 <div class="rgba-stylish-strong py-5 px-5 z-depth-2">        
@@ -149,23 +148,23 @@
                                     </div>                                    
         
                                     <div class="md-form">
-                                        <label for="formContatoNome">Seu nome</label>
-                                        <input type="text" id="formContatoNome" class="form-control">                                        
+                                        <label for="formContatoNome">Nome</label>
+                                        <input type="text" id="formContatoNome" class="form-control" required>                                        
                                     </div>
         
                                     <div class="md-form">
-                                        <label for="formContatoEmail">Seu e-mail</label>
-                                        <input type="text" id="formContatoEmail" class="form-control">
+                                        <label for="formContatoEmail">E-mail</label>
+                                        <input type="text" id="formContatoEmail" class="form-control" required>
                                     </div>
 
                                     <div class="md-form mb-0">
-                                        <label for="tituloMensagemContato">Título</label>                                      
-                                        <input type="text" id="tituloMensagemContato" name="tituloMensagemContato" rows="4" class="form-control"></input>
+                                        <label for="tituloMensagemContato">Assunto</label>                                      
+                                        <input type="text" id="tituloMensagemContato" name="tituloMensagemContato" class="form-control" required></input>
                                     </div>  
         
                                     <div class="md-form mb-5">
                                         <label for="mensagemContato">Mensagem</label>                                      
-                                        <textarea type="text" id="mensagemContato" name="mensagemContato" rows="4" class="form-control md-textarea"></textarea>
+                                        <textarea type="text" id="mensagemContato" name="mensagemContato" rows="4" class="form-control md-textarea" required></textarea>
                                     </div>        
 
                                     <div class="row d-flex align-items-center">        
